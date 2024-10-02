@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedha Sree's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a href="#profile">Vedha Sree Thummagunta</a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Vedha Sree</div>
+        <div class=" hamburger-menu">
+            <div class=" hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="circle-image" src="assets/me.jpg"="Vedha Sree's profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Vedha Sree Thummagunta</h1>
+            <p class="section__text__p2">Student | Software Engineer | AI/ML Enthusiast | Instructional Assistant</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/vedha-sree-thummagunta/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/linkedin.png" My LinkedIn profile" class="icon" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="main-container">
+                <div class="image-container">
+                    <img src="assets/aboutpic.jpeg" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>Instructional Assistant<br>Research Teaching Assistant</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon">
+                            <h3>Education</h3>
+                            <ul>
+                                <li>Master's Degree in Computer Science from University of North Carolina at Charlotte.
+                                    <b>August 2023-December 2024 </b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <ul>
+                            <li>
+                                I am a passionate Software Engineer with a <b>Master's in Computer Science from UNC
+                                    Charlotte.</b> I am currently working as an Instructional Assistant at UNC Charlotte.
+                                I have experience in <b>Artificial Intelligence</b> and <b>Machine Learning</b> domains, where I
+                                developed few projects such as fraud detection and sentiment analysis. My expertise also
+                                includes front-end technologies like <b>Python, HTML, CSS, ReactJS and JavaScript coupled with back-end frameworks such as Java, C#, C++, Spring Boot</b>
+                                I am proficient in cloud platforms such as <b>AWS, Microsoft Azure, and skilled in using
+                                    tools like Docker, Hadoop , Apache Spark </b> for seamless deployments.
+                                Additionally, I have a strong command of databases like <b>MySQL</b> and <b>MongoDB</b>
+                                consistently delivering efficient solutions that meet business objectives.
+                            </li>
+                            <li>
+                                I enjoy tackling challenging problems and am always eager to learn new technologies. In
+                                my free time, I contribute to open-source projects and volunteer in tech communities.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="C# icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="C++ icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>ReactJS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Spring Boot</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>NodeJS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>BootStrap</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>PyTorch</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Databases<br> and <br> Cloud Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>AWS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Microsoft Azure</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Others</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Artificial Intelligence</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Machine Learning</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>OOP</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Docker</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Hadoop</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">-->
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Work Experience</p>
+        <h1 class="title">Experience</h1>
+
+        <div class="experience-item">
+            <img src="assets/uncc.jpg" alt="UNCC logo" class="company-logo">
+            <div class="experience-details">
+                <h2>University of North Carolina at Charlotte</h2>
+                <p>Instructional Assistant | Charlotte, NC, USA | January 2024 - Present</p>
+                <ul>
+                    <li>Assisted professors with more than 200 students for courses on AI, Computer Vision, and Usable
+                        Security.</li>
+                    <li>Enlightened students about intricate concepts like Artificial Intelligence,
+                        Search engines, Large Language Models (LLMs), Computer Vision, Phishing concepts.</li>
+                    <li>Led breakout sessions and graded assignments.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <img src="assets/diya.png" alt="DIYA logo" class="company-logo">
+            <div class="experience-details">
+                <h2>DIYA Research Inc</h2>
+                <p>Research Teaching Assistant | Milpitas, CA, USA | June 2024 - August 2024</p>
+                <ul>
+                    <li>Mentored a team of 4 high-school graduates, facilitating their mastery of machine learning concepts and data analysis tools ,
+                        including Pandas, Seaborn, MatplotLib.</li>
+                    <li>Guided the visualization and interpretation of complex datasets to enhance their practical understanding . Their efforts
+                        culminated in achieving a recall rate of 95% and a precision rate of 88%.</li>
+                    <li>Conducted weekly sessions and provided continuous support through slack and email.Maintained a detailed project tracker, making sure of regular updates to GitHub.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="projects-container">
+                        <div class="project">
+                            <h2 class="experience-sub-title project-title">Fraud Detection Analysis</h2>
+                            <ul class="project-points">
+                                <li>Developed a robust fraud detection system using Spark MLlib and Pandas for data
+                                    visualization.</li>
+                                <li>Preprocessed financial datasets and implemented outlier detection techniques, such
+                                    as Interquartile Range (IQR), to identify suspicious transactions.</li>
+                                <li>Trained machine learning models, including Logistic Regression and Gradient Boosting
+                                    Trees, achieving an accuracy of 94%.</li>
+                                <li>Deployed the solution using Docker and Virtual Box, ensuring scalability and robust
+                                    performance for real-world financial applications.</li>
+                            </ul>
+                            <p><strong>Environment:</strong>Python, Pandas, SQL, Docker, Spark, Virtual Box</p>
+                            <div class="project">
+                                <h2 class="experience-sub-title project-title">NewsApp Web Application</h2>
+                                <ul class="project-points">
+                                    <li>Implemented a feature to categorize news articles into topics such as
+                                        technology, business, sports, etc., enhancing user experience by providing
+                                        organized content using React.js.</li>
+                                    <li>Developed a search feature allowing users to efficiently find specific news
+                                        articles based on keywords or topics of interest, improving accessibility and
+                                        usability.</li>
+                                    <li>Designed a detailed view for news articles, displaying key information such as
+                                        headlines, publication date, source, and possibly summaries or excerpts,
+                                        enhancing user engagement and comprehension.</li>
+                                    <li>Ensured cross-device compatibility by implementing responsive design principles,
+                                        making the application accessible and user-friendly on various devices including
+                                        desktops, tablets, and smartphones.</li>
+                                </ul>
+                                <p><strong>Environment:</strong> HTML, CSS, JavaScript, Bootstrap, React.js, React
+                                    Router, Visual Studio, Fetch API</p>
+
+                            </div>
+
+                            <div class="project">
+                                <h2 class="experience-sub-title project-title">Sentiment Analysis using NLP</h2>
+                                <ul class="project-points">
+                                    <li>Built a Python-based sentiment analysis system using NLTK's TextBlob library to
+                                        classify text as positive, negative, or neutral.</li>
+                                    <li>Implemented subjectivity detection to differentiate between opinion-based and
+                                        factual statements, providing deeper insights into textual data.</li>
+                                    <li>Achieved a polarity score of +1 for positive statements and -1 for negative
+                                        statements, with real-time processing of textual data.</li>
+                                    <li>Enhanced text preprocessing techniques, including tokenization and stop-word
+                                        removal, for improved sentiment prediction accuracy.</li>
+                                </ul>
+                                <p><strong>Environment:</strong> Python, Pandas, NLTK, TextBlob</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:vedhasreethummagunta@gmail.com">vedhasreethummagunta@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/vedha-sree-thummagunta" target="_blank">LinkedIn</a></p>
+                <p>
+                    <img src="./assets/call-icon.webp" alt="Contact icon" class="icon contact-icon">
+                    <a>+1 (321) 464-9459</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Vedha Sree Thummagunta. All Rights Reserved. Developed by Vedha Sree Thummagunta</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
